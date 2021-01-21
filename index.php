@@ -25,6 +25,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
     <title>Google Faq</title>
   </head>
   <body>
@@ -37,6 +38,5 @@
         </div>
       <?php endforeach; ?>
     </ul>
-    <a href='#'></a>
   </body>
 </html>
