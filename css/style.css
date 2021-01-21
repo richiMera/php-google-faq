@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #3367D6;
+}
+
+p {
+  font-size: 17px;
+}
+
 .faq_container {
   width: 100%;
   padding: 50px 265px 0 265px;
