@@ -29,14 +29,13 @@
     <title>Google Faq</title>
   </head>
   <body>
-    <ul>
-      <?php foreach ($supports as $support): ?>
-        <div class="faq_container">
-          <?php foreach ($support as $key => $value): ?>
-            <?php echo "$value" ?>
-          <?php endforeach; ?>
-        </div>
-      <?php endforeach; ?>
-    </ul>
+    <?php foreach ($supports as $support): ?>
+      <div class="faq_container">
+        <?php foreach ($support as $support): ?>
+          <?php echo $support ?>
+        <?php endforeach; ?>
+      </div>
+    <?php endforeach; ?>
+    
   </body>
-</html>
+  </html>
